@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: huiahf ÷‹∏Á∏Á,  «∑Ò, LIC=65ISZ-JH68S-II05V-PDCMG-9RM7F-G5XID
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.1.0
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+D:\GUI3\Wifi_CODE\PROJECT\NewProject.uvprojx
+Project File Date:  10/11/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'NweProject'
+compiling main.c...
+..\USER\LVGL\porting\lv_port_disp_template.h(28): warning:  #1295-D: Deprecated declaration DisPlay_SPI_DMA_Init - give arg types
+  static void DisPlay_SPI_DMA_Init();
+..\generated\guider_fonts\guider_fonts.h(18): warning:  #1-D: last line of file ends without a newline
+      
+..\generated\gui_guider.h(43): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\generated\events_init.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif /* EVENT_CB_H_ */
+..\generated\guider_lv_conf.h(26): warning:  #47-D: incompatible redefinition of macro "LV_MEM_SIZE"  (declared at line 45 of "..\USER\LVGL\src\../src/misc/../../lv_conf.h")
+  #  define LV_MEM_SIZE    (128U * 1024U + LV_HOR_RES_MAX * LV_VER_RES_MAX * 4)
+..\generated\guider_lv_conf.h(47): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(49): warning:  #177-D: variable "i"  was declared but never referenced
+  	u8 i;
+main.c(50): warning:  #177-D: variable "fs"  was declared but never referenced
+  	FATFS fs;
+main.c(51): warning:  #177-D: variable "res"  was declared but never referenced
+  	FRESULT res;
+main.c(52): warning:  #177-D: variable "key"  was declared but never referenced
+  	unsigned char key = 0;
+main.c(53): warning:  #177-D: variable "sp"  was declared but never referenced
+  	char *sp;
+main.c(54): warning:  #177-D: variable "count"  was declared but never referenced
+  	u16 count = 0;
+main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=194244 RO-data=22968 RW-data=812 ZI-data=62548  
+FromELF: creating hex file...
+".\Objects\NewProject.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.11.0.pack
+                Keil.STM32F4xx_DFP.2.11.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_NweProject
+  D:\Keil\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
